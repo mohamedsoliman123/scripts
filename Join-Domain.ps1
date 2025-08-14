@@ -8,7 +8,7 @@
 param (
     [string]$DomainName,
     [string]$DomainAdminUser,
-    [string]$DomainAdminPassword,
+    [SecureString]$DomainAdminPassword,
     [string]$OUPath
 )
 
